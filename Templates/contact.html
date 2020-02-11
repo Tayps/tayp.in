@@ -1,0 +1,40 @@
+{% extends 'base.html'%}
+
+{%block header%} - Give me a shoutout! {% endblock header%}
+
+{%block content%}
+
+<!-- Footer -->
+  <section id="footer">
+    <div class="inner">
+      <h2 class="major">Reach out to me!</h2>
+      <p>Would like to find out more about my projects or collaborate on competitions/hackathons? Feel free to reach out to me! </p>
+      <form method="post" action="#">
+        <div class="fields">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+          </div>
+        </div>
+        <ul class="actions">
+          <li><input type="submit" value="Send Message" /></li>
+        </ul>
+      </form>
+      <ul class="contact">
+        <li class="icon solid fa-phone">(000) 000-0000</li>
+        <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+        <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
+        <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
+        <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+      </ul>
+    </div>
+  </section>
+{%endblock content%}
